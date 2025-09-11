@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/jpg" href="./images/icone.jpg" />
+
+  <!-- Put your site title here -->
+  <title>
+    Nermeen's portfolio
+  </title>
+
+  <meta name="description" content="Nermeen Abu Esaa - Full Stack Web Developer">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Nermeen Abu Esaa, Full Stack Developer, Web Developer, .NET, JavaScript, Database" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+          <li class="nav__item">
+            <a href="#footer" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Nermeen Abu Esaa</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A Full Stack Web Developer passionate about creating innovative digital solutions</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Updated About Me content -->
+            <p>
+              I'm Nermeen, a Full Stack Developer with a strong foundation in .NET technologies, web development, and database management. 
+              I recently discovered my passion for coding, and it quickly became the field where I feel most at home.
+            </p>
+            <p>
+              Through academic projects, I've grown into a flexible team player and problem solver, sharpening my ability to turn ideas into 
+              practical, user-friendly applications. I enjoy developing scalable, efficient web solutions by combining solid backend logic 
+              with modern front-end technologies.
+            </p>
+            <p>
+              Each project challenges me to learn more, think creatively, and strengthen my skills. I'm excited to keep learning, building, 
+              and collaborating on projects that make a real impact.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="./images/Nermeen-Resume.pdf" class="btn" target="_blank" download>My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/photo2.jpg" alt="Nermeen Abu Esaa" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** education  ***** -->
+
+    <section class="education" id="education">
+      <div class="row">
+        <h2>My Education</h2>
+        <div class="education__content">
+          <div class="education__item">
+            <h3>ALEXANDRIA UNIVERSITY</h3>
+           <h3><b>Faculty of Computer and Data Science</b></h3>
+            <p>2023 - 2027</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- Skills Section -->
+<section class="skills" id="skills">
+  <div class="row">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">HTML</div>
+      <div class="skill-item">SQL Server</div>
+      <div class="skill-item">C#</div>
+      <div class="skill-item">Python</div>
+      <div class="skill-item">C++</div>
+      <div class="skill-item">Java</div>
+      <div class="skill-item">ASP.NET</div>
+      <div class="skill-item">ESP32</div>
+      <div class="skill-item">Arduino</div>
+    </div>
+  </div>
+</section>
+
+<!-- ***** Offered Services ***** -->
+<section class="services" id="services">
+  <div class="row">
+    <h2>Offered Services</h2>
+    <div class="services__content">
+      <p>
+        As a web developer, I provide comprehensive services that cover the entire process of building modern and scalable web solutions. 
+        I design and develop responsive websites that work seamlessly across devices, ensuring functionality and creativity.
+      </p>
+      <p>
+        My services include full-stack development using .NET, HTML, CSS, JavaScript, and Bootstrap. I also specialize in API integration, 
+        database design, and website optimization to deliver secure and high-performance applications tailored to client needs.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ***** Projects ***** -->
+    <section class="projects" id="projects">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="projects__content">
+          
+          <!-- Project 1 -->
+          <div class="project__item">
+            <div class="project__image">
+              <!-- ضع هنا صورة المشروع -->
+              <img src="./images/pro 1.jpg" alt="Benign vs Malignant Tumors" class="project__photo" />
+              <div class="project__overlay">
+                <span class="project__icon">🧬</span>
+              </div>
+            </div>
+            <div class="project__text">
+              <h3>Benign vs Malignant Tumors</h3>
+              <p>
+                Machine Learning using classification dataset, Trained a Support Vector Machine (SVM) model for accurate classification, 
+                Compared model performance (SVM vs Neural Network) to determine the most accurate approach.
+              </p>
+              <div class="project__technologies">
+                <span class="tech__tag">Python</span>
+                <span class="tech__tag">Matplotlib</span>
+                <span class="tech__tag">Scikit-learn</span>
+                <span class="tech__tag">SVM</span>
+              </div>
+              <a href="https://github.com/NermeenNoaman/Breast-Cancer-Project" class="btn" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project__item">
+            <div class="project__image">
+              <!-- ضع هنا صورة المشروع -->
+              <img src="./images/pro 2.jpg" alt="Web Scraping Project" class="project__photo" />
+              <div class="project__overlay">
+                <span class="project__icon">🕷️</span>
+              </div>
+            </div>
+            <div class="project__text">
+              <h3>Web Scraping</h3>
+              <p>
+                Extract data from "date and time" website, Applied Regression Analysis using the Scikit-Learn library, 
+                Created meaningful Visualizations with interactive dashboard.
+              </p>
+              <div class="project__technologies">
+                <span class="tech__tag">Python</span>
+                <span class="tech__tag">BeautifulSoup</span>
+                <span class="tech__tag">Streamlit</span>
+                <span class="tech__tag">Pandas</span>
+              </div>
+              <a href="https://github.com/NermeenNoaman/Web-scraping-"class="btn" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project__item">
+            <div class="project__image">
+              <!-- ضع هنا صورة المشروع -->
+              <img src="./images/pro 3.jpg" alt="University System" class="project__photo" />
+              <div class="project__overlay">
+                <span class="project__icon">🏫</span>
+              </div>
+            </div>
+            <div class="project__text">
+              <h3>University System</h3>
+              <p>
+                Entity Relationship Diagram (ERD), Inserted sample data using SQL INSERT statements, 
+                Utilized SQL for complex queries and database management operations.
+              </p>
+              <div class="project__technologies">
+                <span class="tech__tag">SQL Server</span>
+                <span class="tech__tag">Python</span>
+                <span class="tech__tag">ERD Design</span>
+                <span class="tech__tag">Database</span>
+              </div>
+              <a href="https://github.com/NermeenNoaman/University-System" class="btn" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 4 - Smart Parking System -->
+          <div class="project__item">
+            <div class="project__image">
+              <!-- ضع هنا صورة المشروع -->
+              <img src="./images/pro 4.jpg" alt="Smart Parking System" class="project__photo" />
+              <div class="project__overlay">
+                <span class="project__icon">🚗</span>
+              </div>
+            </div>
+            <div class="project__text">
+              <h3>Smart Parking System</h3>
+              <p>
+                IoT-based smart parking solution using sensors and cloud connectivity. 
+                Real-time monitoring of parking spaces with automated data collection and visualization 
+                through web dashboard for efficient parking management.
+              </p>
+              <div class="project__technologies">
+                <span class="tech__tag">Arduino</span>
+                <span class="tech__tag">ESP32</span>
+                <span class="tech__tag">Cloud</span>
+                <span class="tech__tag">Node-RED</span>
+                <span class="tech__tag">Database</span>
+                <span class="tech__tag">IoT</span>
+              </div>
+              <a href="https://github.com/NermeenNoaman/web_scraping_and_analysis" class="btn" target="_blank">View Project</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a skilled Full Stack developer to bring your ideas to life? Whether you need a modern web application, 
+          e-commerce solution, or custom business platform, I'm here to help. Let's discuss how we can work together to create something amazing. 
+          Feel free to reach out for collaborations, consultations, or just to say hello! 
+          The quickest way to reach me is via email.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:nermeenabuessa@gmail.com" class="btn">nermeenabuessa@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer" id="footer">
+    <div class="row">
+        <ul class="footer__social-links">
+            <li class="footer__social-link-item">
+                <a href="https://www.linkedin.com/in/nermeen-abu-essa/" title="Link to LinkedIn Profile" target="_blank">
+                    <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
+                </a>
+            </li>
+
+            <li class="footer__social-link-item">
+                <a href="https://wa.me/201014796845" title="Link to WhatsApp" target="_blank">
+                    <img src="./images/whatsapp.svg" class="footer__social-image" alt="WhatsApp">
+                </a>
+            </li>
+
+            <li class="footer__social-link-item">
+                <a href="https://github.com/NermeenNoaman" title="Link to Github Profile" target="_blank">
+                    <img src="./images/github.svg" class="footer__social-image" alt="Github">
+                </a>
+            </li>
+        </ul>
+
+       
+        <div class="footer__github-buttons">
+            <iframe
+                src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+                frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+            </iframe>
+        </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
